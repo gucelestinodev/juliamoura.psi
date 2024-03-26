@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.Footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ContactInfo {
+  flex: 1;
+}
+
+.InputsContainer {
+  flex: 2;
+}
+
+.DoubleInputs {
+  display: flex;
+}
+
+.DoubleInputs input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.InputsContainer input {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+
+/* Adicione estilos adicionais conforme necessário */
+
